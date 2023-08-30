@@ -1163,6 +1163,10 @@ select {
   margin-top: 0.15rem;
 }
 
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
