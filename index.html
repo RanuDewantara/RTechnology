@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,15 +9,17 @@
   <link rel="stylesheet" href="tailwind-elements.css">
   <link rel="stylesheet" href="flowbite.css">
 </head>
+
 <body class="">
   <header class="relative bg-sky-500 w-full z-[2000]">
     <nav class=" max-w-screen-xl mx-auto">
       <div class="flex justify-between px-5 items-center md:py-0">
-        <div class="flex items-center text-white">
-          <a href="#">
-            <h1 class="text-4xl font-[DAGGERSQUARE]">RT<h2 class="text-xl font-[Goldman]">echnology</h2></h1>
-          </a>
-        </div>
+        <a href="./index.html">
+          <div class="flex items-center text-white">
+            <h1 class="text-4xl font-[DAGGERSQUARE]">RT<h2 class="text-xl font-[Goldman]">echnology</h2>
+            </h1>
+          </div>
+        </a>
         <div class="">
           <ul class="hidden space-x-2 font-[Play] text-white md:flex">
             <li class="h-16 w-20 text-center hover:bg-white hover:text-sky-500 py-5">
@@ -39,14 +42,10 @@
             </li>
           </ul>
         </div>
-        <div class="rounded my-3 items-center bg-sky-600 hover:bg-sky-700 active:bg-sky-800 focus:bg-sky-800 transition duration-150 ease-in-out md:hidden">
-          <button
-            class="rounded align-middle"
-            type="button"
-            data-te-offcanvas-toggle
-            data-te-target="#offcanvasRight"
-            aria-controls="offcanvasRight"
-            data-te-ripple-color="light">
+        <div
+          class="rounded my-3 items-center bg-sky-600 hover:bg-sky-700 active:bg-sky-800 focus:bg-sky-800 transition duration-150 ease-in-out md:hidden">
+          <button class="rounded align-middle" type="button" data-te-offcanvas-toggle data-te-target="#offcanvasRight"
+            aria-controls="offcanvasRight" data-te-ripple-color="light">
             <img src="./img/svg/bars-solid.svg" class="h-10 p-2">
           </button>
         </div>
@@ -57,10 +56,7 @@
   <div class="md:hidden">
     <div
       class="invisible fixed bottom-0 right-0 top-10 z-[1045] flex w-1/2 max-w-full translate-x-full flex-col border-none bg-sky-600 bg-clip-padding text-white outline-none transition duration-300 ease-in-out [&[data-te-offcanvas-show]]:transform-none"
-      tabindex="-1"
-      id="offcanvasRight"
-      aria-labelledby="offcanvasRightLabel"
-      data-te-offcanvas-init>
+      tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel" data-te-offcanvas-init>
       <div class="items-center justify-between py-5 text-center">
         <ul class="space-y-1 w-full font-[Play] px-0 text-white text-center py-6">
           <li class="hover:text-sky-500 hover:bg-white py-3 px-0">
@@ -79,9 +75,9 @@
             </a>
           </li>
           <li class="hover:text-sky-500 hover:bg-white py-3 px-0">
-              <a href="#">
-                Investors
-              </a>
+            <a href="#">
+              Investors
+            </a>
           </li>
           <li class="hover:text-sky-500 hover:bg-white py-3 px-0">
             <a href="#">
@@ -101,67 +97,47 @@
   <section class="bg-gradient-to-r from-sky-800 to-cyan-950 py-10">
     <div class="md:flex max-w-screen-xl mx-auto w-full items-center">
       <div class="mx-auto pt-5 pb-0 md:pt-0 px-10">
-        <h1 class="h-fit w-full max-w-xs px-4 text-justify mx-auto font-[Goldman] font-medium text-[#6AD4F5] text-2xl lg:px-4 lg:scale-110">The Technology for Your Better Life in the Industry 4.0</h1>
+        <h1
+          class="h-fit w-full max-w-xs px-4 text-justify mx-auto font-[Goldman] font-medium text-[#6AD4F5] text-2xl lg:px-4 lg:scale-110">
+          The Technology for Your Better Life in the Industry 4.0</h1>
       </div>
-      <div
-        id="imageCarousel"
-        class="relative p-5 max-w-md mx-auto"
-        data-te-carousel-init
-        data-te-ride="carousel">
+      <div id="imageCarousel" class="relative p-5 max-w-md mx-auto" data-te-carousel-init data-te-ride="carousel">
         <!--Carousel indicators-->
-        <div
-          class="absolute bottom-0 left-0 right-0 z-[2] mx-10 mb-4 flex list-none justify-center p-0"
+        <div class="absolute bottom-0 left-0 right-0 z-[2] mx-10 mb-4 flex list-none justify-center p-0"
           data-te-carousel-indicators>
-          <button
-            type="button"
-            data-te-target="#imageCarousel"
-            data-te-slide-to="0"
-            data-te-carousel-active
+          <button type="button" data-te-target="#imageCarousel" data-te-slide-to="0" data-te-carousel-active
             class="mx-1 h-2 w-2 rounded-full cursor-pointer bg-white bg-clip-padding opacity-50 transition-opacity duration-500 ease-in-out"
-            aria-current="true"
-            aria-label="Slide 1">
+            aria-current="true" aria-label="Slide 1">
           </button>
-          <button
-            type="button"
-            data-te-target="#imageCarousel"
-            data-te-slide-to="1"
+          <button type="button" data-te-target="#imageCarousel" data-te-slide-to="1"
             class="mx-1 h-2 w-2 rounded-full cursor-pointer bg-white bg-clip-padding opacity-50 transition-opacity duration-500 ease-in-out"
             aria-label="Slide 2">
           </button>
-          <button
-            type="button"
-            data-te-target="#imageCarousel"
-            data-te-slide-to="2"
+          <button type="button" data-te-target="#imageCarousel" data-te-slide-to="2"
             class="mx-1 h-2 w-2 rounded-full cursor-pointer bg-white bg-clip-padding opacity-50 transition-opacity duration-500 ease-in-out"
             aria-label="Slide 3">
           </button>
-          <button
-            type="button"
-            data-te-target="#imageCarousel"
-            data-te-slide-to="3"
+          <button type="button" data-te-target="#imageCarousel" data-te-slide-to="3"
             class="mx-1 h-2 w-2 rounded-full cursor-pointer bg-white bg-clip-padding opacity-50 transition-opacity duration-500 ease-in-out"
             aria-label="Slide 4">
           </button>
-          <button
-            type="button"
-            data-te-target="#imageCarousel"
-            data-te-slide-to="4"
+          <button type="button" data-te-target="#imageCarousel" data-te-slide-to="4"
             class="mx-1 h-2 w-2 rounded-full cursor-pointer bg-white bg-clip-padding opacity-50 transition-opacity duration-500 ease-in-out"
             aria-label="Slide 5">
           </button>
         </div>
-  
+
         <!--Carousel items-->
-        <div id="products" class="relative w-full top-[10px] overflow-hidden after:clear-both after:block after:content-['']">
+        <div id="products"
+          class="relative w-full top-[10px] overflow-hidden after:clear-both after:block after:content-['']">
           <!--RT-CLOUD item-->
           <div
             class="relative float-left -mr-[100%] text-center w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
-            data-te-carousel-active
-            data-te-carousel-item
-            style="backface-visibility: hidden">
-            <img src="./img/png-jpg/RTCloud.png" class="block mx-auto"/>
+            data-te-carousel-active data-te-carousel-item style="backface-visibility: hidden">
+            <img src="./img/png-jpg/RTCloud.png" class="block mx-auto" />
             <div class="px-10">
-              <div class="bottom-2 mb-7 py-2 w-full px-0 max-w-xs mx-auto rounded-lg text-center text-white bg-slate-800 bg-opacity-25 md:block">
+              <div
+                class="bottom-2 mb-7 py-2 w-full px-0 max-w-xs mx-auto rounded-lg text-center text-white bg-slate-800 bg-opacity-25 md:block">
                 <h5 class="text-2xl font-[Coda]] mb-2">RT-Cloud</h5>
                 <p class="font-[Oxanium] h-12 w-full px-2">
                   Advance Cloud-Computing Service
@@ -171,10 +147,13 @@
           </div>
 
           <!--RT-IDE item-->
-          <div class="relative float-left -mr-[100%] hidden text-center w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item>
-            <img src="./img/png-jpg/RT-IDE.png" class="block mx-auto"/>
+          <div
+            class="relative float-left -mr-[100%] hidden text-center w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+            data-te-carousel-item>
+            <img src="./img/png-jpg/RT-IDE.png" class="block mx-auto" />
             <div class="px-10">
-              <div class="bottom-2 mb-7 py-2 w-full px-0 max-w-xs mx-auto rounded-lg text-center text-white bg-slate-800 bg-opacity-25 md:block">
+              <div
+                class="bottom-2 mb-7 py-2 w-full px-0 max-w-xs mx-auto rounded-lg text-center text-white bg-slate-800 bg-opacity-25 md:block">
                 <h5 class="text-2xl font-[Coda]] mb-2">RT-IDE</h5>
                 <p class="font-[Oxanium] h-12 w-full px-2">
                   Best IDE for Professional Developer
@@ -184,10 +163,13 @@
           </div>
 
           <!--RUIX item-->
-          <div class="relative float-left -mr-[100%] hidden text-center w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item>
-            <img src="./img/png-jpg/RUIX.png" class="block mx-auto"/>
+          <div
+            class="relative float-left -mr-[100%] hidden text-center w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+            data-te-carousel-item>
+            <img src="./img/png-jpg/RUIX.png" class="block mx-auto" />
             <div class="px-10">
-              <div class="bottom-2 mb-7 py-2 w-full px-0 max-w-xs mx-auto rounded-lg text-center text-white bg-slate-800 bg-opacity-25 md:block">
+              <div
+                class="bottom-2 mb-7 py-2 w-full px-0 max-w-xs mx-auto rounded-lg text-center text-white bg-slate-800 bg-opacity-25 md:block">
                 <h5 class="text-2xl font-[Coda]] mb-2">R UI/X</h5>
                 <p class="font-[Oxanium] h-12 w-full px-2">
                   Professional UI/UX Designer Software
@@ -197,10 +179,13 @@
           </div>
 
           <!--R-HOSTER item-->
-          <div class="relative float-left -mr-[100%] hidden text-center w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item>
-            <img src="./img/png-jpg/RT Hoster.png" class="block mx-auto"/>
+          <div
+            class="relative float-left -mr-[100%] hidden text-center w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+            data-te-carousel-item>
+            <img src="./img/png-jpg/RT Hoster.png" class="block mx-auto" />
             <div class="px-10">
-              <div class="bottom-2 mb-7 py-2 w-full px-0 max-w-xs mx-auto rounded-lg text-center text-white bg-slate-800 bg-opacity-25 md:block">
+              <div
+                class="bottom-2 mb-7 py-2 w-full px-0 max-w-xs mx-auto rounded-lg text-center text-white bg-slate-800 bg-opacity-25 md:block">
                 <h5 class="text-2xl font-[Coda]] mb-2">RT HOSTER</h5>
                 <p class="font-[Oxanium] h-12 w-full px-2">
                   Modern and Easy Web Hosting Service
@@ -210,10 +195,13 @@
           </div>
 
           <!-- Git Studio -->
-          <div class="relative float-left -mr-[100%] hidden text-center w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item>
-            <img src="./img/png-jpg/Git Studio.png" class="block mx-auto"/>
+          <div
+            class="relative float-left -mr-[100%] hidden text-center w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+            data-te-carousel-item>
+            <img src="./img/png-jpg/Git Studio.png" class="block mx-auto" />
             <div class="px-10">
-              <div class="bottom-2 mb-7 py-2 w-full px-0 max-w-xs mx-auto rounded-lg text-center text-white bg-slate-800 bg-opacity-25 md:block">
+              <div
+                class="bottom-2 mb-7 py-2 w-full px-0 max-w-xs mx-auto rounded-lg text-center text-white bg-slate-800 bg-opacity-25 md:block">
                 <h5 class="text-2xl font-[Coda]] mb-2">Git Studio</h5>
                 <p class="font-[Oxanium] h-12 w-full px-2">
                   Manage project source code easily
@@ -222,13 +210,11 @@
             </div>
           </div>
         </div>
-  
+
         <!--Carousel controls - prev item-->
         <button
           class="absolute bottom-0 left-3 top-0 z-[1] flex w-1/6 items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-in-out hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90"
-          type="button"
-          data-te-target="#imageCarousel"
-          data-te-slide="prev">
+          type="button" data-te-target="#imageCarousel" data-te-slide="prev">
           <span class="inline-block h-8 w-8">
             <img src="./img/svg/chevron-back.svg" class="">
           </span>
@@ -236,9 +222,7 @@
         <!--Carousel controls - next item-->
         <button
           class="absolute bottom-0 right-2 top-0 z-[1] flex w-1/6 items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-in-out hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90"
-          type="button"
-          data-te-target="#imageCarousel"
-          data-te-slide="next">
+          type="button" data-te-target="#imageCarousel" data-te-slide="next">
           <span class="inline-block h-8 w-8">
             <img src="./img/svg/chevron-forward.svg" class="">
           </span>
@@ -256,10 +240,12 @@
         <div class="h-2 w-full bg-emerald-500"></div>
         <h1 class="text-xl text-center mb-5 pt-5 md:text-2xl">Cloud-Computing</h1>
         <p class="text-justify py-2 rounded-lg px-10">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque quo reiciendis, placeat tempore eaque ad eveniet ex perferendis ipsam. Officia at id ad rem iste ex quasi doloribus incidunt blanditiis.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque quo reiciendis, placeat tempore eaque ad
+          eveniet ex perferendis ipsam. Officia at id ad rem iste ex quasi doloribus incidunt blanditiis.
         </p>
         <button class="mx-auto w-full pt-5 pb-7">
-          <a href="#" class="mx-auto bg-cyan-600 text-white active:text-white hover:bg-sky-900 active:bg-sky-950 rounded p-2">
+          <a href="#"
+            class="mx-auto bg-cyan-600 text-white active:text-white hover:bg-sky-900 active:bg-sky-950 rounded p-2">
             Read more
           </a>
         </button>
@@ -268,10 +254,12 @@
         <div class="h-2 w-full bg-sky-400"></div>
         <h1 class="text-xl text-center mb-5 pt-5 md:text-2xl">Web Hosting</h1>
         <p class="text-justify py-2 rounded-lg px-10">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque quo reiciendis, placeat tempore eaque ad eveniet ex perferendis ipsam. Officia at id ad rem iste ex quasi doloribus incidunt blanditiis.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque quo reiciendis, placeat tempore eaque ad
+          eveniet ex perferendis ipsam. Officia at id ad rem iste ex quasi doloribus incidunt blanditiis.
         </p>
         <button class="mx-auto w-full pt-5 pb-7">
-          <a href="#" class="mx-auto bg-cyan-600 text-white active:text-white hover:bg-sky-900 active:bg-sky-950 rounded p-2">
+          <a href="#"
+            class="mx-auto bg-cyan-600 text-white active:text-white hover:bg-sky-900 active:bg-sky-950 rounded p-2">
             Read more
           </a>
         </button>
@@ -280,10 +268,12 @@
         <div class="h-2 w-full bg-amber-300"></div>
         <h1 class="text-xl text-center mb-5 pt-5 md:text-2xl">Online IDE</h1>
         <p class="text-justify py-2 rounded-lg px-10">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque quo reiciendis, placeat tempore eaque ad eveniet ex perferendis ipsam. Officia at id ad rem iste ex quasi doloribus incidunt blanditiis.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque quo reiciendis, placeat tempore eaque ad
+          eveniet ex perferendis ipsam. Officia at id ad rem iste ex quasi doloribus incidunt blanditiis.
         </p>
         <button class="mx-auto w-full pt-5 pb-7">
-          <a href="#" class="mx-auto bg-cyan-600 text-white active:text-white hover:bg-sky-900 active:bg-sky-950 rounded p-2">
+          <a href="#"
+            class="mx-auto bg-cyan-600 text-white active:text-white hover:bg-sky-900 active:bg-sky-950 rounded p-2">
             Read more
           </a>
         </button>
@@ -292,10 +282,12 @@
         <div class="h-2 w-full bg-amber-700"></div>
         <h1 class="text-xl text-center mb-5 pt-5 md:text-2xl">Source Code Management</h1>
         <p class="text-justify py-2 rounded-lg px-10">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque quo reiciendis, placeat tempore eaque ad eveniet ex perferendis ipsam. Officia at id ad rem iste ex quasi doloribus incidunt blanditiis.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque quo reiciendis, placeat tempore eaque ad
+          eveniet ex perferendis ipsam. Officia at id ad rem iste ex quasi doloribus incidunt blanditiis.
         </p>
         <button class="mx-auto w-full pt-5 pb-7">
-          <a href="#" class="mx-auto bg-cyan-600 text-white active:text-white hover:bg-sky-900 active:bg-sky-950 rounded p-2">
+          <a href="#"
+            class="mx-auto bg-cyan-600 text-white active:text-white hover:bg-sky-900 active:bg-sky-950 rounded p-2">
             Read more
           </a>
         </button>
@@ -390,7 +382,7 @@
             </li>
           </ul>
         </div>
-        
+
         <div class="py-4 pr-2 text-base font-[Oxanium]">
           <h1 class="uppercase font-semibold">Careers</h1>
           <ul class="text-zinc-400 text-sm">
@@ -429,7 +421,8 @@
         </a>
       </div>
       <div class="text-white w-full">
-        <div class="flex flex-wrap gap-2 max-w-xl text-sm font-[Coda]] mx-auto justify-between md:justify-between md:gap-5">
+        <div
+          class="flex flex-wrap gap-2 max-w-xl text-sm font-[Coda]] mx-auto justify-between md:justify-between md:gap-5">
           <span class="no-underline hover:underline">
             <a href="">Terms & Conditions</a>
           </span>
@@ -453,7 +446,7 @@
           <span class="no-underline hover:underline">
             <a href="">Trademarks</a>
           </span>
-          
+
           <div class="max-w-screen-lg text-sm text-center pt-10 mx-auto">
             <h1>Copyright © 2023 PT RTechnology, Tbk.</h1>
           </div>
@@ -462,8 +455,9 @@
       </div>
     </div>
   </footer>
-  
+
   <script src="tailwind-elements.js"></script>
   <script src="flowbite.js"></script>
 </body>
+
 </html>
