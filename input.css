@@ -6,3 +6,38 @@
 #drawer-navigation{
   box-shadow: none;
 }
+
+@font-face {
+  font-family: Oxanium;
+  src: url(./fonts/Oxanium-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Orbitron;
+  src: url(./fonts/Orbitron-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Tektur;
+  src: url(./fonts/Tektur.ttf);
+}
+
+@font-face {
+  font-family: DAGGERSQUARE;
+  src: url(./fonts/DAGGERSQUARE.otf);
+}
+
+@font-face {
+  font-family: Coda;
+  src: url(./fonts/Coda-Regular.ttf);
+}
+
+@font-face {
+  font-family: Play;
+  src: url(./fonts/Play-Regular.ttf);
+}
+
+@font-face {
+  font-family: Goldman;
+  src: url(./fonts/Goldman-Regular.ttf);
+}
